@@ -31,7 +31,7 @@
     "eject": "react-scripts eject",
     "lint": "npm run prettier && npm run prettier && npm run ts-check",
     "prettier": "prettier --list-different --write './**/*.ts?(x)'",
-    "eslint": "eslint . --ext .ts --ext .tsx --fix",
+    "eslint": "eslint -c .eslintrc-rca.js . --ext .ts --ext .tsx --fix",
     "ts-check": "tsc --noEmit"
   },
   "eslintConfig": {
